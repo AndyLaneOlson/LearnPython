@@ -1,0 +1,35 @@
+CREATE A REPOSITORY
+git init
+git clone username@host:/path/to/REPOSITORY
+
+
+CLONING:
+git clone "https:REPO...."
+
+
+
+WHEN PUSHING:
+git status
+git add .
+git commit -m "##########"
+git push origin master
+
+
+CREATE A BRANCH AND SWITCH TO SWITCH
+git checkout -b name_##
+
+SWITCH BACK TO MASTER
+git checkout master
+
+DELETE BRANCH
+git branch -d name_##
+
+UPDATE LOCAL REPOSITORY TO NEWEST COMMIT
+git pull
+
+MERGE:
+git merge <branch>
+
+OTHER:
+git log
+gitk  == graphical git
